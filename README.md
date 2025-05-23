@@ -4,7 +4,11 @@
 
 A documentation viewer for GNOME. Intended to replace Yelp and Devhelp.
 
-Planned features:
+## Status
+
+Pre-MVP. World's worst web browser.
+
+## Planned features
 
 - man pages
 - texinfo
