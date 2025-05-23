@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE cambalache-project SYSTEM "cambalache-project.dtd">
+<cambalache-project version="0.17.3" target_tk="gtk-4.0">
+  <ui>
+	(1,None,"docviewer.ui","docviewer.ui",None,None,None,None,None,None,None)
+  </ui>
+  <object>
+	(1,1,"AdwWindow",None,None,None,None,None,-1,None,None),
+	(1,2,"AdwNavigationSplitView",None,1,None,None,None,-1,None,None),
+	(1,3,"AdwNavigationPage",None,2,None,None,None,-1,None,None),
+	(1,4,"AdwNavigationPage",None,2,None,None,None,-1,None,None),
+	(1,5,"AdwToolbarView",None,3,None,None,None,-1,None,None),
+	(1,6,"AdwToolbarView",None,4,None,None,None,-1,None,None),
+	(1,7,"GtkListView",None,6,None,None,None,-1,None,None),
+	(1,8,"GtkListItemFactory",None,7,None,None,None,-1,None,None),
+	(1,9,"GtkListItemFactory",None,7,None,None,None,-1,None,None),
+	(1,10,"GtkSingleSelection",None,7,None,None,None,-1,None,None),
+	(1,11,"GtkTreeListModel",None,10,None,None,None,-1,None,None),
+	(1,13,"AdwHeaderBar",None,6,None,"top",None,-1,None,None),
+	(1,14,"AdwHeaderBar",None,5,None,"top",None,-1,None,None),
+	(1,15,"GtkButton",None,14,None,"start",None,-1,None,None),
+	(1,16,"GtkPaned",None,5,None,None,None,-1,None,None),
+	(1,17,"WebKitWebView",None,16,None,None,None,-1,None,None)
+  </object>
+  <object_property>
+	(1,1,"AdwWindow","content",None,None,None,None,None,2,None,None,None,None),
+	(1,1,"GtkWindow","default-height","600",None,None,None,None,None,None,None,None,None),
+	(1,1,"GtkWindow","default-width","700",None,None,None,None,None,None,None,None,None),
+	(1,2,"AdwNavigationSplitView","content",None,None,None,None,None,3,None,None,None,None),
+	(1,2,"AdwNavigationSplitView","sidebar",None,None,None,None,None,4,None,None,None,None),
+	(1,3,"AdwNavigationPage","child",None,None,None,None,None,5,None,None,None,None),
+	(1,3,"AdwNavigationPage","title","HTML",None,None,None,None,None,None,None,None,None),
+	(1,4,"AdwNavigationPage","child",None,None,None,None,None,6,None,None,None,None),
+	(1,4,"AdwNavigationPage","title","Documentation",None,None,None,None,None,None,None,None,None),
+	(1,5,"AdwToolbarView","content",None,None,None,None,None,16,None,None,None,None),
+	(1,6,"AdwToolbarView","content",None,None,None,None,None,7,None,None,None,None),
+	(1,7,"GtkListView","factory",None,None,None,None,None,8,None,None,None,None),
+	(1,7,"GtkListView","header-factory",None,None,None,None,None,9,None,None,None,None),
+	(1,7,"GtkListView","model",None,None,None,None,None,10,None,None,None,None),
+	(1,10,"GtkSingleSelection","model",None,None,None,None,None,11,None,None,None,None),
+	(1,14,"AdwHeaderBar","decoration-layout",":close",None,None,None,None,None,None,None,None,None),
+	(1,15,"GtkButton","icon-name","tab-new-symbolic",None,None,None,None,None,None,None,None,None)
+  </object_property>
+</cambalache-project>
